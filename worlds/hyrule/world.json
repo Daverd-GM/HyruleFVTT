@@ -1,0 +1,61 @@
+{
+  "title": "Hyrule",
+  "id": "hyrule",
+  "system": "reclaim-the-wild",
+  "nextSession": "2023-05-20T18:00:00.000Z",
+  "description": "<p>Primera Prueba de creación de mundo</p>",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "2.09",
+  "packs": [
+    {
+      "label": "Conditions",
+      "type": "Item",
+      "name": "conditions",
+      "path": "packs/conditions.db",
+      "system": "reclaim-the-wild",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Tools for Reclaim the Wild",
+      "type": "Item",
+      "name": "tools-for-reclaim-the-wild",
+      "path": "packs/tools-for-reclaim-the-wild.db",
+      "system": "reclaim-the-wild",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Default Ingredients for Reclaim the Wild",
+      "type": "Item",
+      "name": "default-ingredients-for-reclaim-the-wild",
+      "path": "packs/default-ingredients-for-reclaim-the-wild.db",
+      "system": "reclaim-the-wild",
+      "private": false,
+      "flags": {},
+      "package": "world",
+      "id": "world.default-ingredients-for-reclaim-the-wild",
+      "packageType": "world",
+      "packageName": "hyrule",
+      "index": []
+    },
+    {
+      "label": "Ravege the Wild Bestiary",
+      "type": "Actor",
+      "name": "ravege-the-wild-bestiary",
+      "path": "packs/ravege-the-wild-bestiary.db",
+      "system": "reclaim-the-wild",
+      "private": false,
+      "flags": {},
+      "package": "world",
+      "id": "world.ravege-the-wild-bestiary",
+      "packageType": "world",
+      "packageName": "hyrule",
+      "index": []
+    }
+  ]
+}

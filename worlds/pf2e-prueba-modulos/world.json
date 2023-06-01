@@ -1,0 +1,12 @@
+{
+  "title": "PF2E Prueba modulos",
+  "id": "pf2e-prueba-modulos",
+  "system": "pf2e",
+  "description": "<p>a ver</p>",
+  "coreVersion": "10.291",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "systemVersion": "4.10.4"
+}
